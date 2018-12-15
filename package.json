@@ -1,0 +1,33 @@
+{
+  "name": "windesheim-periode2-node-cookieapp-graphql",
+  "version": "1.0.0",
+  "description": "windesheim-periode2-node-cookieapp-graphql",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "backpack",
+    "build": "backpack build",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-X/windesheim-periode2-node-cookieapp-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-X/windesheim-periode2-node-cookieapp-graphql/issues"
+  },
+  "homepage": "https://github.com/Thomas-X/windesheim-periode2-node-cookieapp-graphql#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.1.0",
+    "backpack-core": "^0.7.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.2",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2"
+  }
+}
