@@ -107,7 +107,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="js" value="1398" />
+          <entry key="js" value="1444" />
           <entry key="json" value="51" />
         </counts>
       </usages-collector>
@@ -115,7 +115,7 @@
         <counts>
           <entry key="GraphQL" value="33" />
           <entry key="JSON" value="51" />
-          <entry key="JavaScript" value="1365" />
+          <entry key="JavaScript" value="1411" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -174,8 +174,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="431">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
               <folding>
                 <element signature="e#42#72#0" expanded="true" />
                 <element signature="e#146#185#0" expanded="true" />
@@ -188,7 +188,7 @@
         <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" lean-forward="true" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -394,12 +394,12 @@
       <workItem from="1543957393077" duration="11000" />
       <workItem from="1544178090292" duration="6530000" />
       <workItem from="1544568265898" duration="1291000" />
-      <workItem from="1544884567273" duration="9418000" />
+      <workItem from="1544884567273" duration="10007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37914000" />
+    <option name="totallyTimeSpent" value="38503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
@@ -502,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -554,10 +547,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="431">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding>
             <element signature="e#42#72#0" expanded="true" />
             <element signature="e#146#185#0" expanded="true" />

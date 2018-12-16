@@ -21,6 +21,8 @@ import resolvers from './resolvers/index';
 	// app.get('/world', (req,res) => res.send('hi!!'));
 	server.applyMiddleware({app});
 
+	app.get('/', (req,res) => res.redirect('/graphql'));
+
 	const port = 9380;
 	app.listen(port, () => console.log(`Server ready at http://localhost:${port}${server.graphqlPath}`));
 })();

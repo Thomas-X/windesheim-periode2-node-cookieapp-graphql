@@ -190,7 +190,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 	// app.get('/world', (req,res) => res.send('hi!!'));
 	server.applyMiddleware({ app });
 
-	const port = 4000;
+	app.get('/', (req, res) => res.redirect('/graphql'));
+
+	const port = 9380;
 	app.listen(port, () => console.log(`Server ready at http://localhost:${port}${server.graphqlPath}`));
 })();
 
