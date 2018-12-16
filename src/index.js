@@ -6,6 +6,7 @@ import './connector/DB';
 import Cookie_Model from "./connector/models/Cookie_Model";
 import schema from './schema/schema';
 import resolvers from './resolvers/index';
+import generateTabs from "./generateTabs";
 
 (async() => {
 	// Sync models to DB
@@ -14,7 +15,8 @@ import resolvers from './resolvers/index';
 
 	const server = new ApolloServer({
 		typeDefs: schema,
-		resolvers: resolvers
+		resolvers: resolvers,
+		...generateTabs(),
 	});
 
 	const app = express();

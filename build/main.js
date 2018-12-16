@@ -167,10 +167,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__connector_models_Cookie_Model__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__schema_schema__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__resolvers_index__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__generateTabs__ = __webpack_require__(11);
 // load .env file into process.env global
 
 
 // init db singleton
+
 
 
 
@@ -181,10 +183,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 	await __WEBPACK_IMPORTED_MODULE_3__connector_models_Cookie_Model__["a" /* default */].sync();
 	///////
 
-	const server = new __WEBPACK_IMPORTED_MODULE_1_apollo_server_express__["ApolloServer"]({
+	const server = new __WEBPACK_IMPORTED_MODULE_1_apollo_server_express__["ApolloServer"](Object.assign({
 		typeDefs: __WEBPACK_IMPORTED_MODULE_4__schema_schema__["a" /* default */],
 		resolvers: __WEBPACK_IMPORTED_MODULE_5__resolvers_index__["a" /* default */]
-	});
+	}, Object(__WEBPACK_IMPORTED_MODULE_6__generateTabs__["a" /* default */])()));
 
 	const app = __WEBPACK_IMPORTED_MODULE_0_express___default()();
 	// app.get('/world', (req,res) => res.send('hi!!'));
@@ -351,6 +353,50 @@ class Cookie {
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (new Cookie());
+
+/***/ }),
+/* 11 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = (() => {
+
+	const createTab = (query, name) => ({
+		endpoint: process.env.IS_PROD ? 'https://cookieapp-graphql.thomas.zwarts.codes/graphql' : 'http://localhost:9380/graphql',
+		query,
+		name
+	});
+
+	let obj = {};
+	if (!!process.env.IS_PROD) {
+		obj = {
+			playground: {
+				tabs: [createTab(`query {
+  getCookie(id: 1) {
+    name,
+    weight,
+    hasChocolate,
+  }
+}					
+					`, 'getCookie'), createTab(`query {
+  getCookies {
+ 		id,
+    name,
+    hasChocolate,
+    weight,
+  }
+}`, 'getCookies'), createTab(`mutation {
+  createCookie(name: "Stroopwafel", hasChocolate: false)
+}`, 'createCookie'), createTab(`mutation {
+  updateCookie(id: 2, name: "Verse stroopwafel", weight: 75)
+}`, 'updateCookie'), createTab(`mutation {
+  deleteCookie(id: 2)
+}`, 'deleteCookie')]
+			}
+		};
+	}
+	return obj;
+});
 
 /***/ })
 /******/ ]);

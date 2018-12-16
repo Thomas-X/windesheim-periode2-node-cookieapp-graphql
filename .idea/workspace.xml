@@ -92,30 +92,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="env" value="1" />
-          <entry key="js" value="10" />
+          <entry key="env" value="2" />
+          <entry key="js" value="11" />
           <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="1" />
+          <entry key=".env file" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="10" />
+          <entry key="JavaScript" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="js" value="1444" />
+          <entry key="env" value="24" />
+          <entry key="js" value="1970" />
           <entry key="json" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key=".env file" value="24" />
           <entry key="GraphQL" value="33" />
           <entry key="JSON" value="51" />
-          <entry key="JavaScript" value="1411" />
+          <entry key="JavaScript" value="1937" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
@@ -126,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/connector/DB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="178">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -174,21 +176,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#42#72#0" expanded="true" />
-                <element signature="e#146#185#0" expanded="true" />
+                <element signature="e#146#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/.env">
+        <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/generateTabs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-end-line="6" />
+            <state relative-caret-position="753">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -198,6 +200,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -252,6 +263,8 @@
         <option value="$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/resolvers/resolvers/Cookie.js" />
         <option value="$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/schema/schema.js" />
         <option value="$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/package.json" />
+        <option value="$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/.env" />
+        <option value="$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/generateTabs.js" />
         <option value="$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/index.js" />
       </list>
     </option>
@@ -394,12 +407,12 @@
       <workItem from="1543957393077" duration="11000" />
       <workItem from="1544178090292" duration="6530000" />
       <workItem from="1544568265898" duration="1291000" />
-      <workItem from="1544884567273" duration="10007000" />
+      <workItem from="1544884567273" duration="13192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38503000" />
+    <option name="totallyTimeSpent" value="41688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
@@ -502,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/connector/models/Cookie_Model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -516,13 +522,6 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/connector/DB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -547,20 +546,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/connector/DB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-end-line="6" />
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/generateTabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../windesheim-periode2-node-cookieapp-graphql/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#42#72#0" expanded="true" />
-            <element signature="e#146#185#0" expanded="true" />
+            <element signature="e#146#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
