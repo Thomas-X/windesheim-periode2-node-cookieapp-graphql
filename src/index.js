@@ -12,12 +12,15 @@ import resolvers from './resolvers/index';
 	await Cookie_Model.sync();
 	///////
 
-	const server = new ApolloServer({typeDefs: schema, resolvers});
+	const server = new ApolloServer({
+		typeDefs: schema,
+		resolvers: resolvers
+	});
 
 	const app = express();
 	// app.get('/world', (req,res) => res.send('hi!!'));
 	server.applyMiddleware({app});
 
-	const port = 4000;
+	const port = 9380;
 	app.listen(port, () => console.log(`Server ready at http://localhost:${port}${server.graphqlPath}`));
 })();

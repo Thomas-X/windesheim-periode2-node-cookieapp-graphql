@@ -181,7 +181,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 	await __WEBPACK_IMPORTED_MODULE_3__connector_models_Cookie_Model__["a" /* default */].sync();
 	///////
 
-	const server = new __WEBPACK_IMPORTED_MODULE_1_apollo_server_express__["ApolloServer"]({ typeDefs: __WEBPACK_IMPORTED_MODULE_4__schema_schema__["a" /* default */], resolvers: __WEBPACK_IMPORTED_MODULE_5__resolvers_index__["a" /* default */] });
+	const server = new __WEBPACK_IMPORTED_MODULE_1_apollo_server_express__["ApolloServer"]({
+		typeDefs: __WEBPACK_IMPORTED_MODULE_4__schema_schema__["a" /* default */],
+		resolvers: __WEBPACK_IMPORTED_MODULE_5__resolvers_index__["a" /* default */]
+	});
 
 	const app = __WEBPACK_IMPORTED_MODULE_0_express___default()();
 	// app.get('/world', (req,res) => res.send('hi!!'));
